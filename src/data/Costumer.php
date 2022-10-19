@@ -17,4 +17,8 @@ class Costumer{
     {
         echo "Hello $name dari ".$this->name.PHP_EOL;
     }
+    function Salam():void
+    {
+        echo "Selamat Datang Saya $this->name alamat $this->address berbangsa $this->country".PHP_EOL;
+    }
 }
